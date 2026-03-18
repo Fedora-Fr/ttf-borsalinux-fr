@@ -1,0 +1,290 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"defaultDuotone": false,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"palette": [
+        {
+          "color": "#ffffff",
+          "name": "Base",
+          "slug": "base"
+        },
+        {
+          "color": "#162446",
+          "name": "Contrast",
+          "slug": "contrast"
+        },
+        {
+          "color": "#1e345e",
+          "name": "Primary",
+          "slug": "accent-1"
+        },
+        {
+          "color": "color-mix(in srgb, #1e345e 75%, transparent)",
+          "name": "Primary (75%)",
+          "slug": "primary-percent-75"
+        },
+        {
+          "color": "color-mix(in srgb, #1e345e 50%, transparent)",
+          "name": "Primary (50%)",
+          "slug": "primary-percent-50"
+        },
+        {
+          "color": "color-mix(in srgb, #1e345e 25%, transparent)",
+          "name": "Primary (25%)",
+          "slug": "primary-percent-25"
+        },
+        {
+          "color": "#5e481e",
+          "name": "Complementary",
+          "slug": "accent-2"
+        },
+        {
+          "color": "color-mix(in srgb, #5e481e 50%, transparent)",
+          "name": "Complementary (50%)",
+          "slug": "complementary-percent-50"
+        },
+        {
+          "color": "color-mix(in srgb, #5e481e 25%, transparent)",
+          "name": "Complementary (25%)",
+          "slug": "complementary-percent-25"
+        },
+        {
+          "color": "#1e545e",
+          "name": "Analogous #1",
+          "slug": "accent-3"
+        },
+        {
+          "color": "color-mix(in srgb, #1e545e 75%, transparent)",
+          "name": "Analogous #1 (75%)",
+          "slug": "analogous-1-percent-75"
+        },
+        {
+          "color": "color-mix(in srgb, #1e545e 50%, transparent)",
+          "name": "Analogous #1 (50%)",
+          "slug": "analogous-1-percent-50"
+        },
+        {
+          "color": "color-mix(in srgb, #1e545e 25%, transparent)",
+          "name": "Analogous #1 (25%)",
+          "slug": "analogous-1-percent-25"
+        },
+        {
+          "color": "#281e5e",
+          "name": "Analogous #2",
+          "slug": "accent-4"
+        },
+        {
+          "color": "color-mix(in srgb, #281e5e 75%, transparent)",
+          "name": "Analogous #2 (75%)",
+          "slug": "analogous-2-percent-75"
+        },
+        {
+          "color": "color-mix(in srgb, #281e5e 50%, transparent)",
+          "name": "Analogous #2 (50%)",
+          "slug": "analogous-2-percent-50"
+        },
+        {
+          "color": "color-mix(in srgb, #281e5e 25%, transparent)",
+          "name": "Analogous #2 (25%)",
+          "slug": "analogous-2-percent-25"
+        },
+        {
+          "color": "#e6e9ee",
+          "name": "Light",
+          "slug": "accent-5"
+        },
+        {
+          "color": "color-mix(in srgb, currentColor 20%, transparent)",
+          "name": "Accent 6",
+          "slug": "accent-6"
+        },
+        {
+          "color": "#481e5e",
+          "name": "Triadic #1",
+          "slug": "triadic-1"
+        },
+        {
+          "color": "color-mix(in srgb, #481e5e 75%, transparent)",
+          "name": "Triadic #1 (75%)",
+          "slug": "triadic-1-percent-75"
+        } ,
+        {
+          "color": "color-mix(in srgb, #481e5e 50%, transparent)",
+          "name": "Triadic #1 (50%)",
+          "slug": "triadic-1-percent-50"
+        },
+        {
+          "color": "color-mix(in srgb, #481e5e 25%, transparent)",
+          "name": "Triadic #1 (25%)",
+          "slug": "triadic-1-percent-25"
+        },
+        {
+          "color": "#5e1e34",
+          "name": "Triadic #2",
+          "slug": "triadic-2"
+        },
+        {
+          "color": "color-mix(in srgb, #5e1e34 75%, transparent)",
+          "name": "Triadic #2 (75%)",
+          "slug": "triadic-2-percent-75"
+        },
+        {
+          "color": "color-mix(in srgb, #5e1e34 50%, transparent)",
+          "name": "Triadic #2 (50%)",
+          "slug": "triadic-2-percent-50"
+        },
+        {
+          "color": "color-mix(in srgb, #5e1e34 25%, transparent)",
+          "name": "Triadic #2 (25%)",
+          "slug": "triadic-2-percent-25"
+        }
+      ]
+		},
+    "typography": {
+      "fontFamilies": [
+				{
+					"name": "Roboto",
+					"slug": "roboto",
+					"fontFamily": "Roboto, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/dist/roboto-latin-400-normal.woff2"
+							],
+							"fontWeight": "200 800",
+							"fontStyle": "normal",
+							"fontFamily": "Roboto"
+						}
+					]
+				},
+        {
+					"name": "Space Grotesk",
+					"slug": "space-grotesk",
+					"fontFamily": "\"Space Grotesk\", sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/dist/space-grotesk-latin-400-normal.woff2"
+							],
+							"fontWeight": "200 800",
+							"fontStyle": "normal",
+							"fontFamily": "\"Space Grotesk\""
+						}
+					]
+				}
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|base",
+      "text": "var:preset|color|contrast"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|roboto",
+      "fontSize": "var:preset|font-size|medium",
+      "fontWeight": "300",
+      "letterSpacing": "-0.1px",
+      "lineHeight": "1.4"
+    },
+    "blocks": {
+      "core/post-title": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|space-grotesk"
+        },
+        "elements": {
+          "link": {
+            ":hover": {
+              "typography": {
+                "textDecoration": "underline dotted"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      },
+      "core/site-tagline": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|space-grotesk",
+          "fontSize": "var:preset|font-size|medium"
+        }
+      },
+      "core/site-title": {
+        "color": {
+          "text": "var:preset|color|base"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|space-grotesk",
+          "fontWeight": "700",
+          "letterSpacing": "-.5px"
+        },
+        "elements": {
+          "link": {
+            ":hover": {
+              "typography": {
+                "textDecoration": "none"
+              }
+            },
+            "typography": {
+              "textDecoration": "none"
+            }
+          }
+        }
+      }
+    },
+    "elements": {
+      "h1": {
+        "typography": {
+          "fontSize": "var:preset|font-size|xx-large"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "var:preset|font-size|x-large"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "var:preset|font-size|large"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "var:preset|font-size|medium"
+        }
+      },
+      "h5": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "letterSpacing": "0.5px"
+        }
+      },
+      "h6": {
+        "typography": {
+          "fontSize": "var:preset|font-size|small",
+          "fontWeight": "700",
+          "letterSpacing": "1.4px",
+          "textTransform": "uppercase"
+        }
+      },
+      "heading": {
+        "color": {
+          "text": "var:preset|color|accent-3"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|space-grotesk",
+          "fontWeight": "400",
+          "lineHeight": "1.125",
+          "letterSpacing": "-0.1px"
+        }
+      }
+    }
+  }
+}
