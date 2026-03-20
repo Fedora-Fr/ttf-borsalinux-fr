@@ -1,20 +1,20 @@
 .is-style-text-error {
-  background-color: var(--wp--preset--color--accent-2-percent-25);
-  color: var(--wp--preset--color--accent-2);
-  border: 1px solid var(--wp--preset--color--accent-2);
+  background-color: var(--wp--preset--color--accent-3-percent-25);
+  color: var(--wp--preset--color--accent-3);
+  border: 1px solid var(--wp--preset--color--accent-3);
   border-radius: 10px;
 }
 
 .is-style-text-warning {
-  background-color: var(--wp--preset--color--accent-1-percent-25);
-  color: var(--wp--preset--color--accent-1);
-  border: 1px solid var(--wp--preset--color--accent-1);
+  background-color: var(--wp--preset--color--accent-4-percent-25);
+  color: var(--wp--preset--color--accent-4);
+  border: 1px solid var(--wp--preset--color--accent-4);
   border-radius: 10px;
 }
 
 .is-style-text-info {
   background-color: var(--wp--preset--color--accent-1-percent-25);
-  color: var(--wp--preset--color--accent-3);
-  border: 1px solid var(--wp--preset--color--accent-3);
+  color: var(--wp--preset--color--accent-1);
+  border: 1px solid var(--wp--preset--color--accent-1);
   border-radius: 10px;
 }
