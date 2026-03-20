@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-color: var(--wp--preset--color--accent-2);
   border-bottom: px solid var(--wp--preset--color--accent-1);
+  padding-top: var(--wp--preset--spacing--30);
   min-height: 146px;
 
   .wp-block-site-title {
