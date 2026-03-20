@@ -7,7 +7,7 @@ export default defineConfig( {
 		outDir: resolve( __dirname, 'assets/dist' ),
 		emptyOutDir: true,
 		rollupOptions: {
-			input: resolve( __dirname, '/assets/src/main.js' ),
+			input: resolve( __dirname, 'assets/src/main.js' ),
 			output: {
 				entryFileNames: `[name].js`,
 				chunkFileNames: `[name].js`,

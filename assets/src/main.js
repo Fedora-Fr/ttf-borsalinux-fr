@@ -3,6 +3,7 @@
 /*
  * font part.
  */
+import '@fontsource/inter';
 
 /*
  * CSS Part.

@@ -1,0 +1,17 @@
+.site-header {
+  background-image: url(../images/header-bg.webp);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-color: var(--wp--preset--color--accent-2);
+  border-bottom: px solid var(--wp--preset--color--accent-1);
+  min-height: 146px;
+
+  .wp-block-site-title {
+    font-size: var(--wp--preset--font-size--xx-large);
+    font-weight: 800;
+
+    a {
+      color: var(--wp--preset--color--accent-1);
+    }
+  }
+}

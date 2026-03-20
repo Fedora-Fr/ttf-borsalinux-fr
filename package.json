@@ -20,13 +20,14 @@
 		"url": "https://github.com/Fedora-Fr/ttf-borsalinux-fr/issues"
 	},
 	"dependencies": {
+		"@fontsource/inter": "^5.2.8"
 	},
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^24.3.0",
 		"@wordpress/prettier-config": "^4.41.0",
 		"@wordpress/stylelint-config": "^23.33.0",
 		"prettier": "^3.8.1",
-		"vite": "^7.1.10"
+		"vite": "^8.0.0"
 	},
 	"scripts": {
 		"eslint": "eslint ./",
