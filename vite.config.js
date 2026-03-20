@@ -2,12 +2,12 @@
 import { defineConfig } from 'vite';
 import { resolve } from 'path';
 
-export default defineConfig({
+export default defineConfig( {
 	build: {
-		outDir: resolve(__dirname, 'assets/dist'),
+		outDir: resolve( __dirname, 'assets/dist' ),
 		emptyOutDir: true,
 		rollupOptions: {
-			input: resolve(__dirname, 'assets/src/main.js'),
+			input: resolve( __dirname, 'assets/src/main.js' ),
 			output: {
 				entryFileNames: `[name].js`,
 				chunkFileNames: `[name].js`,
@@ -17,4 +17,4 @@ export default defineConfig({
 		cssCodeSplit: false,
 		minify: 'oxc',
 	},
-});
+} );
