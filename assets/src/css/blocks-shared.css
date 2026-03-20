@@ -23,6 +23,12 @@
     color: var(--wp--preset--color--accent-4);
     box-shadow:  6px 6px 0 0 var(--wp--preset--color--accent-4);
   }
+
+  /* stylelint-disable-next-line selector-class-pattern */
+  .wp-block-search__button-inside .wp-block-search__inside-wrapper {
+    border: 0;
+    background-color: transparent;
+  }
 }
 
 main a {
@@ -48,9 +54,4 @@ body.page .entry-content{
     padding-top: var(--wp--preset--spacing--20);
     text-decoration: underline;
   }
-}
-
-/* stylelint-disable-next-line selector-class-pattern */
-.wp-block-search__button-inside .wp-block-search__inside-wrapper {
-  border: 0;
 }
