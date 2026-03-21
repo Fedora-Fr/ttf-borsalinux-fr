@@ -1,0 +1,19 @@
+
+.sidebar {
+  background-color: color-mix(
+    in srgb, var(--wp--preset--color--accent-4) 10%, transparent
+  );
+  padding: 0 var(--wp--preset--spacing--20);
+
+  h2 {
+    margin-top: var(--wp--preset--spacing--30);
+    color: var(--wp--preset--color--accent-4);
+    box-shadow:  6px 6px 0 0 var(--wp--preset--color--accent-4);
+  }
+
+  /* stylelint-disable-next-line selector-class-pattern */
+  .wp-block-search__button-inside .wp-block-search__inside-wrapper {
+    border: 0;
+    background-color: transparent;
+  }
+}
