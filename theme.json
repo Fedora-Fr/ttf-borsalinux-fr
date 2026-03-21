@@ -8,130 +8,145 @@
 			"defaultGradients": false,
 			"defaultPalette": false,
 			"palette": [
-        {
-          "color": "#ffffff",
-          "name": "Base",
-          "slug": "base"
-        },
-        {
-          "color": "#111111",
-          "name": "Contrast",
-          "slug": "contrast"
-        },
-        {
-          "color": "#3c6eb4",
-          "name": "Accent 1",
-          "slug": "accent-1"
-        },
-        {
-          "color": "color-mix(in srgb, #3c6eb4 75%, transparent)",
-          "name": "Accent 1 (75%)",
-          "slug": "accent-1-percent-75"
-        },
-        {
-          "color": "color-mix(in srgb, #3c6eb4 50%, transparent)",
-          "name": "Accent 1 (50%)",
-          "slug": "accent-1-percent-50"
-        },
-        {
-          "color": "color-mix(in srgb, #3c6eb4 25%, transparent)",
-          "name": "Accent 1 (25%)",
-          "slug": "accent-1-percent-25"
-        },
-        {
-          "color": "#dddddd",
-          "name": "Accent 2",
-          "slug": "accent-2"
-        },
-        {
-          "color": "color-mix(in srgb, #dddddd 50%, transparent)",
-          "name": "Accent 2 (50%)",
-          "slug": "accent-2-percent-50"
-        },
-        {
-          "color": "color-mix(in srgb, #dddddd 25%, transparent)",
-          "name": "Accent 2 (25%)",
-          "slug": "accent-2-percent-25"
-        },
-        {
-          "color": "#db4b87",
-          "name": "Accent 3",
-          "slug": "accent-3"
-        },
-        {
-          "color": "color-mix(in srgb, #db4b87 75%, transparent)",
-          "name": "Accent 3 (75%)",
-          "slug": "accent-3-percent-75"
-        },
-        {
-          "color": "color-mix(in srgb, #db4b87 50%, transparent)",
-          "name": "Accent 3 (50%)",
-          "slug": "accent-3-percent-50"
-        },
-        {
-          "color": "color-mix(in srgb, #db4b87 25%, transparent)",
-          "name": "Accent 3 (25%)",
-          "slug": "accent-3-percent-25"
-        },
-        {
-          "color": "#a07cbc",
-          "name": "Accent 4",
-          "slug": "accent-4"
-        },
-        {
-          "color": "color-mix(in srgb, #a07cbc 75%, transparent)",
-          "name": "Accent 4 (75%)",
-          "slug": "accent-4-percent-75"
-        },
-        {
-          "color": "color-mix(in srgb, #a07cbc 50%, transparent)",
-          "name": "Accent 4 (50%)",
-          "slug": "accent-4-percent-50"
-        },
-        {
-          "color": "color-mix(in srgb, #a07cbc 25%, transparent)",
-          "name": "Accent 4 (25%)",
-          "slug": "accent-4-percent-25"
-        },
-        {
-          "color": "#686868",
-          "name": "Accent 5",
-          "slug": "accent-5"
-        },
-        {
-          "color": "color-mix(in srgb, currentColor 20%, transparent)",
-          "name": "Accent 6",
-          "slug": "accent-6"
-        }
-      ]
+				{
+					"color": "#ffffff",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#111111",
+					"name": "Contrast",
+					"slug": "contrast"
+				},
+				{
+					"color": "#3c6eb4",
+					"name": "Accent 1",
+					"slug": "accent-1"
+				},
+				{
+					"color": "color-mix(in srgb, #3c6eb4 75%, transparent)",
+					"name": "Accent 1 (75%)",
+					"slug": "accent-1-percent-75"
+				},
+				{
+					"color": "color-mix(in srgb, #3c6eb4 50%, transparent)",
+					"name": "Accent 1 (50%)",
+					"slug": "accent-1-percent-50"
+				},
+				{
+					"color": "color-mix(in srgb, #3c6eb4 25%, transparent)",
+					"name": "Accent 1 (25%)",
+					"slug": "accent-1-percent-25"
+				},
+				{
+					"color": "#dddddd",
+					"name": "Accent 2",
+					"slug": "accent-2"
+				},
+				{
+					"color": "color-mix(in srgb, #dddddd 50%, transparent)",
+					"name": "Accent 2 (50%)",
+					"slug": "accent-2-percent-50"
+				},
+				{
+					"color": "color-mix(in srgb, #dddddd 25%, transparent)",
+					"name": "Accent 2 (25%)",
+					"slug": "accent-2-percent-25"
+				},
+				{
+					"color": "#db4b87",
+					"name": "Accent 3",
+					"slug": "accent-3"
+				},
+				{
+					"color": "color-mix(in srgb, #db4b87 75%, transparent)",
+					"name": "Accent 3 (75%)",
+					"slug": "accent-3-percent-75"
+				},
+				{
+					"color": "color-mix(in srgb, #db4b87 50%, transparent)",
+					"name": "Accent 3 (50%)",
+					"slug": "accent-3-percent-50"
+				},
+				{
+					"color": "color-mix(in srgb, #db4b87 25%, transparent)",
+					"name": "Accent 3 (25%)",
+					"slug": "accent-3-percent-25"
+				},
+				{
+					"color": "#a07cbc",
+					"name": "Accent 4",
+					"slug": "accent-4"
+				},
+				{
+					"color": "color-mix(in srgb, #a07cbc 75%, transparent)",
+					"name": "Accent 4 (75%)",
+					"slug": "accent-4-percent-75"
+				},
+				{
+					"color": "color-mix(in srgb, #a07cbc 50%, transparent)",
+					"name": "Accent 4 (50%)",
+					"slug": "accent-4-percent-50"
+				},
+				{
+					"color": "color-mix(in srgb, #a07cbc 25%, transparent)",
+					"name": "Accent 4 (25%)",
+					"slug": "accent-4-percent-25"
+				},
+				{
+					"color": "#686868",
+					"name": "Accent 5",
+					"slug": "accent-5"
+				},
+				{
+					"color": "color-mix(in srgb, currentColor 20%, transparent)",
+					"name": "Accent 6",
+					"slug": "accent-6"
+				}
+			]
 		},
-    "typography": {
-      "fontFamilies": [
-        {
-          "name": "Inter",
-          "slug": "inter",
-          "fontFamily": "Inter, sans-serif",
-          "fontFace": [
-            {
-              "src": [
-                "file:./assets/dist/inter-latin-400-normal.woff2"
-              ],
-              "fontWeight": "200 800",
-              "fontStyle": "normal",
-              "fontFamily": "Inter"
-            }
-          ]
-        }
-		  ]
-    }
-  },
+		"typography": {
+			"fontFamilies": [
+				{
+					"name": "Open sans",
+					"slug": "open-sans",
+					"fontFamily": "\"Open Sans\", sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/dist/open-sans-latin-400-normal.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "\"Open Sans\""
+						}
+					]
+				},
+				{
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFamily": "Montserrat, sans-serif",
+					"fontFace": [
+						{
+							"src": [
+								"file:./assets/dist/montserrat-latin-400-normal.woff2"
+							],
+							"fontWeight": "400",
+							"fontStyle": "normal",
+							"fontFamily": "Montserrat"
+						}
+					]
+				}
+			]
+		}
+	},
   "styles": {
     "color": {
       "background": "var:preset|color|base",
       "text": "var:preset|color|contrast"
     },
     "typography": {
-      "fontFamily": "var:preset|font-family|inter",
+      "fontFamily": "var:preset|font-family|open-sans",
       "fontSize": "var:preset|font-size|medium",
       "fontWeight": "300",
       "letterSpacing": "-0.1px",
@@ -147,7 +162,8 @@
               }
             },
             "typography": {
-              "textDecoration": "none"
+              "textDecoration": "none",
+              "fontFamily": "var:preset|font-family|montserrat"
             }
           }
         }
@@ -157,7 +173,7 @@
           "text": "var:preset|color|base"
         },
         "typography": {
-          "fontFamily": "var:preset|font-family|space-grotesk",
+          "fontFamily": "var:preset|font-family|montserrat",
           "fontWeight": "700",
           "letterSpacing": "-.5px"
         },
@@ -215,6 +231,7 @@
           "text": "var:preset|color|accent-1"
         },
         "typography": {
+          "fontFamily": "var:preset|font-family|montserrat",
           "fontWeight": "400",
           "lineHeight": "1.125",
           "letterSpacing": "-0.1px"

@@ -20,7 +20,8 @@
 		"url": "https://github.com/Fedora-Fr/ttf-borsalinux-fr/issues"
 	},
 	"dependencies": {
-		"@fontsource/inter": "^5.2.8"
+		"@fontsource/montserrat": "^5.2.8",
+		"@fontsource/open-sans": "^5.2.7"
 	},
 	"devDependencies": {
 		"@wordpress/eslint-plugin": "^24.3.0",
