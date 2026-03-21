@@ -3,8 +3,8 @@
 /*
  * font part.
  */
-import '@fontsource/open-sans';
-import '@fontsource/montserrat';
+import '@fontsource-variable/open-sans';
+import '@fontsource-variable/montserrat';
 
 /*
  * CSS Part.

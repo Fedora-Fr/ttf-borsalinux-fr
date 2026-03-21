@@ -7,6 +7,10 @@
 @import url(social.css);
 @import url(js/index.css);
 
+strong, b {
+  font-weight: 800;
+}
+
 .boxed {
   border: 1px solid var(--wp--preset--color--accent-2);
   box-shadow:  6px 6px 0 0 var(--wp--preset--color--accent-2);

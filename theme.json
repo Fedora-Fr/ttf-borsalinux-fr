@@ -114,9 +114,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/dist/open-sans-latin-400-normal.woff2"
+								"file:./assets/dist/open-sans-latin-ext-wght-normal.woff2"
 							],
-							"fontWeight": "400",
+							"fontWeight": "300 800",
 							"fontStyle": "normal",
 							"fontFamily": "\"Open Sans\""
 						}
@@ -129,9 +129,9 @@
 					"fontFace": [
 						{
 							"src": [
-								"file:./assets/dist/montserrat-latin-400-normal.woff2"
+								"file:./assets/dist/montserrat-latin-wght-normal.woff2"
 							],
-							"fontWeight": "400",
+							"fontWeight": "100 900",
 							"fontStyle": "normal",
 							"fontFamily": "Montserrat"
 						}
