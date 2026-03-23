@@ -19,6 +19,7 @@
   justify-content: center;
   gap: var(--wp--preset--spacing--20);
   flex-wrap: wrap;
+  min-width: 450px;
 }
 
 /* Shared button style */
