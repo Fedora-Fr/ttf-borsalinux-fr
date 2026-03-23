@@ -4,6 +4,7 @@
 @import url(sidebar.css);
 @import url(blocks.css);
 @import url(social.css);
+@import url(pagination.css);
 @import url(js/index.css);
 
 strong, b {
