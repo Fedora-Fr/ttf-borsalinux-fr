@@ -1,5 +1,6 @@
 .site-header {
   background-image: url(../images/header-bg.webp);
+  color: var(--wp--preset--color--contrast-forced);
   background-position: center right;
   background-repeat: no-repeat;
   background-color: var(--wp--preset--color--accent-2);

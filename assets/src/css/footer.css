@@ -1,13 +1,14 @@
 .site-footer {
   margin-top: var(--wp--preset--spacing--50);
   padding: var(--wp--preset--spacing--40) 0;
-  color: var(--wp--preset--color--base);
+  color: var(--wp--preset--color--base-forced);
   font-size: var(--wp--preset--font-size--small);
   background-color: var(--wp--preset--color--accent-5);
   border-top: 3px solid var(--wp--preset--color--accent-1);
 
   .wp-block-site-title {
     font-size: var(--wp--preset--font-size--medium);
+    color: var(--wp--preset--color--base-forced);
   }
 
   .wp-block-navigation.social {

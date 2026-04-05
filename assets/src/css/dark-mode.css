@@ -1,0 +1,10 @@
+/* Dark styles */
+:root {
+  --wp--preset--color--base-forced: #fff;
+  --wp--preset--color--contrast-forced: #000;
+}
+
+.theme-dark body {
+  --wp--preset--color--base: #111827;
+  --wp--preset--color--contrast: #d1d5db;
+}
