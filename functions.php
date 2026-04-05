@@ -87,5 +87,3 @@ add_filter( 'should_load_separate_core_block_assets', '__return_true' );
 add_action( 'wp_enqueue_scripts', 'ttf_borsalinuxfr_enqueue_styles' );
 add_action( 'enqueue_block_assets', 'ttf_borsalinuxfr_block_assets' );
 add_action( 'init', 'ttf_borsalinuxfr_clean_wp_head' );
-
-add_menu_page( 'Reusable Blocks', 'Reusable Blocks', 'edit_posts', 'edit.php?post_type=wp_block', '', 'dashicons-editor-table', 22 );
