@@ -22,17 +22,17 @@
 		],
 		"test:all": [
 			"@phpcs",
-			"@npm:eslint",
-			"@npm:stylelint"
+			"@pnpm:eslint",
+			"@pnpm:stylelint"
 		],
 		"phpcs": [
 			"vendor/bin/phpcs -p -s"
 		],
-		"npm:eslint": [
-			"npm run eslint"
+		"pnpm:eslint": [
+			"pnpm test:eslint"
 		],
-		"npm:stylelint": [
-			"npm run stylelint"
+		"pnpm:stylelint": [
+			"pnpm test:stylelint"
 		],
 		"phpcs:fix": [
 			"vendor/bin/phpcbf -p -s"
