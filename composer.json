@@ -1,21 +1,22 @@
 {
-  "name": "fedora-fr/ttf-borsalinux-fr",
-  "description": "WordPress Twenty Twenty Five child theme.",
-  "authors": [
-    {
-        "name": "Guillaume Kulakowski",
-        "email": "guillaume@kulakowski.fr"
-    }
-  ],
-  "config": {
-    "allow-plugins": {
-      "dealerdirect/phpcodesniffer-composer-installer": true
-    }
-  },
-  "require-dev": {
-    "wp-coding-standards/wpcs": "^3.0"
-  },
-  "scripts": {
+	"name": "fedora-fr/ttf-borsalinux-fr",
+	"description": "WordPress Twenty Twenty Five child theme.",
+	"authors": [
+		{
+			"name": "Guillaume Kulakowski",
+			"email": "guillaume@kulakowski.fr"
+		}
+	],
+	"license": "GPL-3.0-only",
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	},
+	"require-dev": {
+		"wp-coding-standards/wpcs": "^3.0"
+	},
+	"scripts": {
 		"test": [
 			"@phpcs"
 		],
@@ -36,5 +37,5 @@
 		"phpcs:fix": [
 			"vendor/bin/phpcbf -p -s"
 		]
-  }
+	}
 }
