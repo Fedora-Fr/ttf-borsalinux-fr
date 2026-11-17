@@ -17,13 +17,13 @@ importers:
     devDependencies:
       '@wordpress/eslint-plugin':
         specifier: ^25.10.0
-        version: 25.10.0(@babel/core@7.29.7(supports-color@10.2.2))(@typescript-eslint/eslint-plugin@8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(postcss@8.5.32)(prettier@3.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.7)
+        version: 25.10.0(@babel/core@7.29.7(supports-color@10.2.2))(@typescript-eslint/eslint-plugin@8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(postcss@8.5.32)(prettier@3.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8)
       '@wordpress/prettier-config':
         specifier: ^4.57.0
         version: 4.57.0(prettier@3.10.1)
       '@wordpress/stylelint-config':
         specifier: ^24.3.0
-        version: 24.3.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint-scss@6.14.0(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3)))(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.7)
+        version: 24.3.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint-scss@6.14.0(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3)))(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.8)
       eslint:
         specifier: ^10.15.0
         version: 10.15.0(supports-color@10.2.2)
@@ -34,8 +34,8 @@ importers:
         specifier: ^17.16.0
         version: 17.16.0(supports-color@10.2.2)(typescript@6.0.3)
       vite:
-        specifier: ^8.3.7
-        version: 8.3.7
+        specifier: ^8.3.8
+        version: 8.3.8
 
 packages:
 
@@ -1381,10 +1381,6 @@ packages:
 
   brace-expansion@5.0.13:
     resolution: {integrity: sha512-Vh3dmFbc4wZeox7M9I/0L9GfFd83Su4+yCck/OF9Gi/P/dAHn0RT7X4K9R7gMNMhDck3DvhR6QXsnQdjjgwNvQ==}
-    engines: {node: 20 || >=22}
-
-  brace-expansion@5.0.9:
-    resolution: {integrity: sha512-ScQ4IuvIEF1TMlP7Zt+vjJ//9zlPb2SDcxWxM3bk8s6t6GGdJ7KO1dCcTidOPJKePW30LE/2cT7wCyPho9/Wxg==}
     engines: {node: 20 || >=22}
 
   braces@3.0.3:
@@ -2940,8 +2936,8 @@ packages:
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  vite@8.3.7:
-    resolution: {integrity: sha512-oxh0dMxrayBr33ScJvvBJ2HBQ2jc1TBrXKR2NyL/MJ9WPuX19mN2DXWUmywKdyw5RFVQBo8hmtb2FMC0LHrnng==}
+  vite@8.3.8:
+    resolution: {integrity: sha512-LzOn3h9rG/0vhLdXrV4yJ4QFA9eEoqCl+Yx+kGJd7aB9w6nfNgVHKSYwLPZUHrz4ZGa+t+kXjV9itvcHDLQouA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -4267,7 +4263,7 @@ snapshots:
 
   '@wordpress/escape-html@3.54.0': {}
 
-  '@wordpress/eslint-plugin@25.10.0(@babel/core@7.29.7(supports-color@10.2.2))(@typescript-eslint/eslint-plugin@8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(postcss@8.5.32)(prettier@3.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.7)':
+  '@wordpress/eslint-plugin@25.10.0(@babel/core@7.29.7(supports-color@10.2.2))(@typescript-eslint/eslint-plugin@8.69.0(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(@typescript-eslint/parser@8.69.0(eslint@10.15.0(supports-color@10.2.2))(supports-color@10.2.2)(typescript@6.0.3))(eslint@10.15.0(supports-color@10.2.2))(postcss@8.5.32)(prettier@3.10.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(supports-color@10.2.2)(typescript@6.0.3)(vite@8.3.8)':
     dependencies:
       '@babel/core': 7.29.7(supports-color@10.2.2)
       '@babel/eslint-parser': 7.29.7(@babel/core@7.29.7(supports-color@10.2.2))(eslint@10.15.0(supports-color@10.2.2))
@@ -4275,7 +4271,7 @@ snapshots:
       '@eslint/compat': 2.1.1(eslint@10.15.0(supports-color@10.2.2))
       '@wordpress/babel-preset-default': 8.54.0(supports-color@10.2.2)
       '@wordpress/prettier-config': 4.57.0(prettier@3.10.1)
-      '@wordpress/theme': 2.0.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.7)
+      '@wordpress/theme': 2.0.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.8)
       cosmiconfig: 7.1.0
       eslint: 10.15.0(supports-color@10.2.2)
       eslint-config-prettier: 10.1.8(eslint@10.15.0(supports-color@10.2.2))
@@ -4338,10 +4334,10 @@ snapshots:
 
   '@wordpress/style-runtime@0.10.0': {}
 
-  '@wordpress/stylelint-config@24.3.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint-scss@6.14.0(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3)))(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.7)':
+  '@wordpress/stylelint-config@24.3.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint-scss@6.14.0(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3)))(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.8)':
     dependencies:
       '@stylistic/stylelint-plugin': 3.1.3(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))
-      '@wordpress/theme': 2.0.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.7)
+      '@wordpress/theme': 2.0.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.8)
       stylelint: 17.16.0(supports-color@10.2.2)(typescript@6.0.3)
       stylelint-config-recommended: 14.0.1(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))
       stylelint-config-recommended-scss: 14.1.0(postcss@8.5.32)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))
@@ -4355,7 +4351,7 @@ snapshots:
       - react-dom
       - vite
 
-  '@wordpress/theme@2.0.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.7)':
+  '@wordpress/theme@2.0.0(postcss@8.5.32)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(stylelint@17.16.0(supports-color@10.2.2)(typescript@6.0.3))(vite@8.3.8)':
     dependencies:
       '@wordpress/compose': 8.7.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@wordpress/deprecated': 4.54.0
@@ -4369,7 +4365,7 @@ snapshots:
     optionalDependencies:
       postcss: 8.5.32
       stylelint: 17.16.0(supports-color@10.2.2)(typescript@6.0.3)
-      vite: 8.3.7
+      vite: 8.3.8
     transitivePeerDependencies:
       - '@types/react-dom'
 
@@ -4538,10 +4534,6 @@ snapshots:
       concat-map: 0.0.1
 
   brace-expansion@5.0.13:
-    dependencies:
-      balanced-match: 4.0.4
-
-  brace-expansion@5.0.9:
     dependencies:
       balanced-match: 4.0.4
 
@@ -5612,7 +5604,7 @@ snapshots:
 
   minimatch@10.2.6:
     dependencies:
-      brace-expansion: 5.0.9
+      brace-expansion: 5.0.13
 
   minimatch@11.0.8:
     dependencies:
@@ -6369,7 +6361,7 @@ snapshots:
 
   util-deprecate@1.0.2: {}
 
-  vite@8.3.7:
+  vite@8.3.8:
     dependencies:
       lightningcss: 1.33.0
       picomatch: 4.0.7
